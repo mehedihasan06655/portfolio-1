@@ -65,7 +65,16 @@ nav ul {
     background-position: bottom right, left;
     background-repeat: no-repeat;
 }
-
+.primary-outline-btn {
+	border: 2px solid #FD6E0A;
+	color: #FD6E0A;
+	border-radius: 5px;
+	padding: 14px 45px;
+	font-size: 24px;
+	background: none;
+	margin-left: 15px;
+	cursor: pointer;
+}
 /* header top area end */
 /* header banner area start */
 .header-banner {
@@ -266,4 +275,8 @@ section.contact a {
 textarea:focus {
     outline: none;
   }
+  textarea {
+    border: none;
+    padding: 24px;
+}
 /* Contact Section end */
